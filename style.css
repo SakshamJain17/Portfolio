@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #54c097;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.project{
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.game {
+  background-color: #d8892f;
+  padding-left: 20px;
+}
+.allGames {
+  background-color: #da2f2f;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+a:link{
+  color: blue;
+}
+a:visited{
+  color: red;
+}
+.icons {
+  background-color: #86d803;
+  display: flex;
+  justify-content: flex-end;
+}
+body {
+  background-color: #431c83;
+}
+.item{
+  position: relative;
+}
+.item h2{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  transform: translate(-30%, -10%);
+  text-align: center;
+  opacity: 0;
+} 
+.item:hover h2{
+  opacity: 1;  
+}
+.item:hover img{
+  opacity: 0.1;
+}
